@@ -6,9 +6,15 @@
     "authors": [
         {
             "name": "Gregory Sposato",
-            "email": "gsposato@mastrack.com"
+            "email": "gregsposato@gmail.com",
+            "homepage": "http://www.gregsposato.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "gsposato\\yii2firestore\\": "src/"
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
