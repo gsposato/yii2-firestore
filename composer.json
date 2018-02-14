@@ -1,0 +1,14 @@
+{
+    "name": "gsposato/yii2-firestore",
+    "description": "A Yii2 Component that connects to Google Firestore",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gregory Sposato",
+            "email": "gsposato@mastrack.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
