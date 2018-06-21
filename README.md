@@ -7,6 +7,22 @@ Before using this plugin, run this command on your server:
     pecl install protobuf
 ```
 
+To install with composer, add this to your composer.json file:
+
+```php
+    {
+        "require": {
+            "gsposato/yii2-firestore":"master",
+        },
+        "repositories": [
+            {
+                "type": "vcs",
+                "url": "https://github.com/gsposato/yii2-firestore.git"
+            }
+        ]
+    }
+```
+
 In your main-local:
 
 ```php
